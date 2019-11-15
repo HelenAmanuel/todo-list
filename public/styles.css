@@ -1,0 +1,91 @@
+/* body{
+  background: red;
+}
+h3{
+  margin-top: 40px;
+} */
+
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#addItemBtn {
+  FONT-SIZE: 17PX;
+  FONT-WEIGHT: 800;
+  font-size: 15px;
+  overflow: auto;
+}
+.mainSec{
+border: 2px solid black;
+margin: 0 auto;
+width:70%;
+}
+.firstSec{
+  border: 1px solid black;
+  background-color: olive;
+}
+
+.listSec{
+  height: 60%;
+  width: 40%;
+  background-color: lightGray;
+}
+
+#tasksSec{
+  height: 17%;
+  width: 40%;
+  background-color: lightblue;
+}
+
+.completed{
+  text-decoration: line-through;
+  color: red;
+}
+
+p{
+  text-align: center;
+  font-style: oblique;
+  font-weight: 700;
+  FONT-SIZE: 19PX;
+  margin: 0 0 14% 0;
+
+}
+
+#remainingTasks{
+  color: red;
+}
+
+#clearCompletedTasks{
+  margin-left: 2.5%;
+  HEIGHT: 70px;
+  WIDTH: 48%;
+  FONT-SIZE: 17PX;
+  FONT-WEIGHT: 800;
+  overflow: auto;
+  display: inline;
+}
+
+#clearAllTasks{
+  margin-left: 0;
+  HEIGHT: 55px;
+  WIDTH: 48%;
+  padding: 0 0 6px 0;
+  FONT-SIZE: 17PX;
+  FONT-WEIGHT: 800;
+  overflow: auto;
+}
+/* form{
+  margin-top: 2%;
+  width: 81%;
+  margin-left: 2%;
+  background-color: coral;
+  height: -webkit-fill-available;
+} */

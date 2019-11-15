@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <h1>My To-Do List</h1>
+    <section class="mainSec">
+      <section class="firstSec">
+        <form class="addForm" action="/taskList" method="POST">
+          <input id="inputItem" placeholder="add item here" type="text" name="word">
+          <button value="0" id="addItemBtn" type="submit" name="taskNum">Add To List</button>
+        </form>
+      </section>
+
+        <ul class="tasks">
+        <% for (var i=0; i < pants.length; i++) { %>
+          <li class="task">
+            <span>
+              <span><%= pants[i].tasks %></span>
+              <button class="deleteBtn" type="button" name="button">
+                <i class="fa fa-trash"></i>
+              </button>
+            </span>
+          </li>
+        <% } %>
+        </ul>
+
+
+      <section class="taskEnd" id="taskEnd">
+        <p>You have <span id="remainingTasks"><%=pants.length%></span> Remaining Tasks Left</p>
+      </section>
+    </section>
+
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>

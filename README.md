@@ -1,5 +1,3 @@
-![21 Savage](public/21savage.jpg)
-
 ## Installation
 
 1. Clone repo
@@ -7,6 +5,6 @@
 
 ## Usage
 
-1. run `npm run savage`
+1. node 'server.js`
 2. Navigate to `localhost:3000`
 # ToDoList
